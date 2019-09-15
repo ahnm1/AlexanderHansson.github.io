@@ -144,20 +144,11 @@ a {
 	color: rgb(50, 50, 63);
 
 }
+
 li {
 	list-style: none;
 }
 
-.mail-link {
-	display: flex;
-	padding: 10px;
-	justify-content: center;
-	align-items: center;
-}
-.about-section {
-	flex: 50%;
-	padding: 5px 
-}
 .selfportrait {
 	width: 240px;
 	height: auto;
@@ -186,17 +177,31 @@ li {
 	align-items: center;
 	justify-content: center;
 }
+
 .printer-img {	  
 	flex: 50%;	  
 	padding: 20px;	  
 	max-width: 50%;	  
 	border-radius: 10%;
 }
+
 .youtube-video {
 	display: flex;
 	padding: 10px 0px 20px;
 	align-items: center;
 	justify-content: center;
+}
+
+.about-section {
+    flex: 50%;
+	padding: 5px 
+}
+
+.mail-link {
+	flex: 50%;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
 }
 
 footer {

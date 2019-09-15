@@ -1,5 +1,4 @@
 *{
-	overflow-x: hidden;
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -51,6 +50,11 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+	
+	body {
+		position:relative;
+		overflow-x:hidden;
+	}
 	
 	.nav-links {
 		position: absolute;
@@ -148,12 +152,6 @@ a {
     width: 30%;
 	
 	border-radius: 10%;
-	/*border: 20px solid #0088D8*/
+	
 	
   }
-/*
-.printerColumn {
-	flex: 50%;
-	padding: 5px;
-  }
-  */

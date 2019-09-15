@@ -1,5 +1,5 @@
 *{
-	overflox-x: hidden;
+	overflow-x: hidden;
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -51,7 +51,6 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-	
 	body {
 		position:relative;
 		overflow-x:hidden;
@@ -67,7 +66,7 @@ nav {
 		flex-direction: column;
 		align-items: center;
 		width: 50%;
-		height: 18%;
+		height: 10%;
 		transform: translateX(100%);
 	}
 
@@ -83,7 +82,12 @@ nav {
 
 .nav-active {
 	transform: translateX(0%);
-	transition: transform 0.5s ease-in;
+	transition: transform 0.4s ease-in;
+}
+
+.nav-deactivate {
+	transform: translateX(0%);
+	transition: transform 0.3s ease-out;
 }
 
 @keyframes navLinkFade {
@@ -153,6 +157,6 @@ a {
     width: 30%;
 	
 	border-radius: 10%;
-	
+	/*border: 20px solid #0088D8*/
 	
   }

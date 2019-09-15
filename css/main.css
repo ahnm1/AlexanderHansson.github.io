@@ -130,9 +130,34 @@ a {
 	padding: 5px 500%;
 	background-size: 100%;
 	background-color: #0088D8;
-	color: rgb(245, 245, 245);
+	color: rgb(250, 255, 255);
 }
 
+.mail {
+	
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(250, 255, 255);
+	color: rgb(50, 50, 63);
+
+}
+li {
+	list-style: none;
+}
+
+.mail-link {
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.about-section {
+	flex: 50%;
+	padding: 5px 
+}
 .selfportrait {
 	width: 240px;
 	height: auto;
@@ -169,6 +194,15 @@ a {
 }
 .youtube-video {
 	display: flex;
+	padding: 10px 0px 20px;
 	align-items: center;
 	justify-content: center;
+}
+
+footer {
+	margin: 0 -500%;
+	padding: 5px 500%;
+	background-size: 100%;
+	background-color: rgb(197, 207, 213);
+	color: rgb(50, 50, 63);
 }

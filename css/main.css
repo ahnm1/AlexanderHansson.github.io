@@ -114,7 +114,7 @@ nav {
 }
 
 h2 {
-	padding: 20px;
+	padding: 20px 20% 0px 20%;
 }
 
 h3 {
@@ -122,7 +122,14 @@ h3 {
 }
 
 p {
-	padding: 5px 30px 5px 30px;
+	margin: 10 20% 10 20% 0;
+}
+.plainText p {
+	padding: 2px; 
+}
+
+.plainText {
+	margin: 10px;
 }
 
 a {
@@ -131,18 +138,6 @@ a {
 	background-size: 100%;
 	background-color: #0088D8;
 	color: rgb(250, 255, 255);
-}
-
-.mail {
-	
-	text-decoration: none;
-	letter-spacing: 0.5px;
-	font-weight: bold;
-	padding: 0;
-	margin: 0;
-	background-color: rgb(250, 255, 255);
-	color: rgb(50, 50, 63);
-
 }
 
 li {
@@ -156,7 +151,9 @@ li {
 	border: 20px solid #0088D8
 	
 }
-
+/*
+* iOS Apps
+*/
 .row {
 	display: flex;
     align-items: center;
@@ -171,7 +168,9 @@ li {
 .image-img {	  
 	max-width: 60%;
 }
-
+/*
+* 3D printer
+*/
 .printer {
 	display: flex;
 	align-items: center;
@@ -209,7 +208,19 @@ li {
 * About
 */
 .about-section {
-	padding: 5px 
+	padding: 20px 
+}
+
+.mail {
+	
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(250, 255, 255);
+	color: rgb(50, 50, 63);
+
 }
 
 .mail-link {

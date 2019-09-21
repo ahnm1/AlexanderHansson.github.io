@@ -210,16 +210,10 @@ li {
 .printer-img {	  
 	flex: 50%;	  
 	padding: 20px;	  
-	max-width: 70%;	  
+	max-width: 60%;	  
 	border-radius: 10%;
 }
 
-.youtube-video {
-	display: flex;
-	padding: 10px 0px 20px;
-	align-items: center;
-	justify-content: center;
-}
 /*
 * Audio / Video
 */
@@ -241,7 +235,11 @@ li {
 }
 
 .audioList {
-	margin: 15px 19% 15px 19%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px 20px 15px 20px;
+
 }
 
 .audioList p {
@@ -252,10 +250,20 @@ li {
 	color: rgb(255, 255, 255);
 	background: rgb(96, 96, 96);
 	border: 1px solid rgb(103, 65, 0);
+	
+	margin: 5px 5% 5px 5%;
+	min-width: 80%; 
 	border-radius: 10px;
-	margin: 5px 0 5px 0; 
-	padding: 5px 10px 5px 10px; 
+	/*padding: 5px 10px 5px 10px; */
 }
+
+.youtube-video {
+	display: flex;
+	padding: 10px 0px 20px;
+	align-items: center;
+	justify-content: center;
+}
+
 /*
 * About
 */

@@ -73,7 +73,7 @@ nav {
 		right: 0px;
 		height: 92vh;
 		top: 8vh;
-		background-color: #0088D8;
+		background-color: #d80000;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -159,7 +159,7 @@ a {
 	margin: 0 -500%;
 	padding: 5px 500%;
 	background-size: 100%;
-	background-color: #0088D8;
+	background-color: #d80000;
 	color: rgb(250, 255, 255);
 }
 

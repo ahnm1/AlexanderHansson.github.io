@@ -1,7 +1,5 @@
 # AlexanderHansson.github.io
 
-Portfolio webpage 
+Portfolio Webpage 
 
-Another project on the side for now.
-
-As long as I have the time I'll be updating it.
+Another side-project, will get updated whenever I feel it's time.
